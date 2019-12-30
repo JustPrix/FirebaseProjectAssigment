@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79016CC397F644D7FCE43826 /* Pods_FirebaseAssignmentProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54BFF3D29E7C5208AAE2B12 /* Pods_FirebaseAssignmentProject.framework */; };
 		D147FD6C23B9E7D6001A988A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D147FD6B23B9E7D6001A988A /* AppDelegate.swift */; };
 		D147FD6E23B9E7D6001A988A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D147FD6D23B9E7D6001A988A /* ViewController.swift */; };
 		D147FD7123B9E7D6001A988A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D147FD6F23B9E7D6001A988A /* Main.storyboard */; };
 		D147FD7423B9E7D6001A988A /* FirebaseAssignmentProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D147FD7223B9E7D6001A988A /* FirebaseAssignmentProject.xcdatamodeld */; };
 		D147FD7623B9E7D6001A988A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D147FD7523B9E7D6001A988A /* Assets.xcassets */; };
 		D147FD7923B9E7D6001A988A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D147FD7723B9E7D6001A988A /* LaunchScreen.storyboard */; };
+		D147FD8123B9EA22001A988A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D147FD8023B9EA22001A988A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		99DD757872929B6C7F793897 /* Pods-FirebaseAssignmentProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAssignmentProject.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseAssignmentProject/Pods-FirebaseAssignmentProject.debug.xcconfig"; sourceTree = "<group>"; };
 		D147FD6823B9E7D6001A988A /* FirebaseAssignmentProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseAssignmentProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D147FD6B23B9E7D6001A988A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D147FD6D23B9E7D6001A988A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		D147FD7523B9E7D6001A988A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D147FD7823B9E7D6001A988A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D147FD7A23B9E7D6001A988A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D147FD8023B9EA22001A988A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA18EFF65FF1C0AF9C5EEE99 /* Pods-FirebaseAssignmentProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAssignmentProject.release.xcconfig"; path = "Target Support Files/Pods-FirebaseAssignmentProject/Pods-FirebaseAssignmentProject.release.xcconfig"; sourceTree = "<group>"; };
+		F54BFF3D29E7C5208AAE2B12 /* Pods_FirebaseAssignmentProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseAssignmentProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79016CC397F644D7FCE43826 /* Pods_FirebaseAssignmentProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A08A964957F7CF7B235DEF1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99DD757872929B6C7F793897 /* Pods-FirebaseAssignmentProject.debug.xcconfig */,
+				DA18EFF65FF1C0AF9C5EEE99 /* Pods-FirebaseAssignmentProject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D147FD5F23B9E7D6001A988A = {
 			isa = PBXGroup;
 			children = (
 				D147FD6A23B9E7D6001A988A /* FirebaseAssignmentProject */,
 				D147FD6923B9E7D6001A988A /* Products */,
+				A08A964957F7CF7B235DEF1C /* Pods */,
+				F3BECB7A0476372E35C3F83E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +75,7 @@
 		D147FD6A23B9E7D6001A988A /* FirebaseAssignmentProject */ = {
 			isa = PBXGroup;
 			children = (
+				D147FD8023B9EA22001A988A /* GoogleService-Info.plist */,
 				D147FD6B23B9E7D6001A988A /* AppDelegate.swift */,
 				D147FD6D23B9E7D6001A988A /* ViewController.swift */,
 				D147FD6F23B9E7D6001A988A /* Main.storyboard */,
@@ -67,6 +87,14 @@
 			path = FirebaseAssignmentProject;
 			sourceTree = "<group>";
 		};
+		F3BECB7A0476372E35C3F83E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F54BFF3D29E7C5208AAE2B12 /* Pods_FirebaseAssignmentProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D147FD7D23B9E7D6001A988A /* Build configuration list for PBXNativeTarget "FirebaseAssignmentProject" */;
 			buildPhases = (
+				BA0D5254F8A5462F018093ED /* [CP] Check Pods Manifest.lock */,
 				D147FD6423B9E7D6001A988A /* Sources */,
 				D147FD6523B9E7D6001A988A /* Frameworks */,
 				D147FD6623B9E7D6001A988A /* Resources */,
@@ -127,12 +156,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				D147FD7923B9E7D6001A988A /* LaunchScreen.storyboard in Resources */,
+				D147FD8123B9EA22001A988A /* GoogleService-Info.plist in Resources */,
 				D147FD7623B9E7D6001A988A /* Assets.xcassets in Resources */,
 				D147FD7123B9E7D6001A988A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA0D5254F8A5462F018093ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseAssignmentProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D147FD6423B9E7D6001A988A /* Sources */ = {
@@ -276,6 +331,7 @@
 		};
 		D147FD7E23B9E7D6001A988A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DD757872929B6C7F793897 /* Pods-FirebaseAssignmentProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +347,7 @@
 		};
 		D147FD7F23B9E7D6001A988A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA18EFF65FF1C0AF9C5EEE99 /* Pods-FirebaseAssignmentProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
