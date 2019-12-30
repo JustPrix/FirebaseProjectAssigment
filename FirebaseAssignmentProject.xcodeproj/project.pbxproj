@@ -15,13 +15,14 @@
 		D147FD7623B9E7D6001A988A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D147FD7523B9E7D6001A988A /* Assets.xcassets */; };
 		D147FD7923B9E7D6001A988A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D147FD7723B9E7D6001A988A /* LaunchScreen.storyboard */; };
 		D147FD8123B9EA22001A988A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D147FD8023B9EA22001A988A /* GoogleService-Info.plist */; };
+		D147FD8C23BA00CF001A988A /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = D147FD8B23BA00CF001A988A /* Fonts */; };
+		D147FD8E23BA058D001A988A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D147FD8D23BA058D001A988A /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0928DD69362F3B7CA4290519 /* Pods-FirebaseAssignmentProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAssignmentProject.release.xcconfig"; path = "Target Support Files/Pods-FirebaseAssignmentProject/Pods-FirebaseAssignmentProject.release.xcconfig"; sourceTree = "<group>"; };
 		67BE5CE1FDE3AB5ED6BF2092 /* Pods_FirebaseAssignmentProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseAssignmentProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E26881C30FFC766963F32D2 /* Pods-FirebaseAssignmentProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAssignmentProject.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseAssignmentProject/Pods-FirebaseAssignmentProject.debug.xcconfig"; sourceTree = "<group>"; };
-		D147FD6823B9E7D6001A988A /* FirebaseAssignmentProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FirebaseAssignmentProject.app; path = "/Users/coe-14/Desktop/Marlon/FirebaseAssignmentProject/build/Debug-iphoneos/FirebaseAssignmentProject.app"; sourceTree = "<absolute>"; };
 		D147FD6B23B9E7D6001A988A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D147FD6D23B9E7D6001A988A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D147FD7023B9E7D6001A988A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -30,6 +31,9 @@
 		D147FD7823B9E7D6001A988A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D147FD7A23B9E7D6001A988A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D147FD8023B9EA22001A988A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D147FD8A23B9F367001A988A /* FirebaseAssignmentProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseAssignmentProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D147FD8B23BA00CF001A988A /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		D147FD8D23BA058D001A988A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +54,6 @@
 				7E26881C30FFC766963F32D2 /* Pods-FirebaseAssignmentProject.debug.xcconfig */,
 				0928DD69362F3B7CA4290519 /* Pods-FirebaseAssignmentProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -68,6 +71,7 @@
 				D147FD6A23B9E7D6001A988A /* FirebaseAssignmentProject */,
 				08ECDFCD060F747C9120F0DA /* Pods */,
 				0CF4FAAF67C3C1D8F21531DC /* Frameworks */,
+				D147FD8A23B9F367001A988A /* FirebaseAssignmentProject.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +86,8 @@
 				D147FD7723B9E7D6001A988A /* LaunchScreen.storyboard */,
 				D147FD7A23B9E7D6001A988A /* Info.plist */,
 				D147FD7223B9E7D6001A988A /* FirebaseAssignmentProject.xcdatamodeld */,
+				D147FD8B23BA00CF001A988A /* Fonts */,
+				D147FD8D23BA058D001A988A /* GradientView.swift */,
 			);
 			path = FirebaseAssignmentProject;
 			sourceTree = "<group>";
@@ -105,7 +111,7 @@
 			);
 			name = FirebaseAssignmentProject;
 			productName = FirebaseAssignmentProject;
-			productReference = D147FD6823B9E7D6001A988A /* FirebaseAssignmentProject.app */;
+			productReference = D147FD8A23B9F367001A988A /* FirebaseAssignmentProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D147FD8C23BA00CF001A988A /* Fonts in Resources */,
 				D147FD7923B9E7D6001A988A /* LaunchScreen.storyboard in Resources */,
 				D147FD8123B9EA22001A988A /* GoogleService-Info.plist in Resources */,
 				D147FD7623B9E7D6001A988A /* Assets.xcassets in Resources */,
@@ -206,6 +213,7 @@
 			files = (
 				D147FD6E23B9E7D6001A988A /* ViewController.swift in Sources */,
 				D147FD7423B9E7D6001A988A /* FirebaseAssignmentProject.xcdatamodeld in Sources */,
+				D147FD8E23BA058D001A988A /* GradientView.swift in Sources */,
 				D147FD6C23B9E7D6001A988A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
