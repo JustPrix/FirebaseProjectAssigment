@@ -7,6 +7,7 @@
 //
 
 import UIKit
+@IBDesignable
 
 class GradientView: UIView {
 
@@ -18,17 +19,26 @@ class GradientView: UIView {
     }
     */
     
-    var firstColor: UIColor = UIColor.clear {
+    @IBInspectable var firstColor: UIColor = UIColor.clear {
         didSet {
             updateView()
         }
     }
 
-    var secondaryColor : UIColor = UIColor.clear {
+    @IBInspectable var secondColor : UIColor = UIColor.clear {
         didSet {
             updateView()
         }
     }
     
+    override class var layerClass: AnyClass {
+        get {
+            return CAGradientLayer.self
+        }
+    }
     
+    func updateView() {
+        let layer = self.layer as! CAGradientLayer
+        layer.colors = [firstColor, secondColor].map{$0.cgColor}
+    }
 }
